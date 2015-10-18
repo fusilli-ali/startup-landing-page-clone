@@ -4,3 +4,6 @@ body {
 div {
 	border: 1px solid chocolate;
 }
+.top-navigation .logo {
+	height: 4.375em;
+}
