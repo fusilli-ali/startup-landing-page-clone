@@ -13,11 +13,26 @@ div {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
+}
+
+.links > li {
+	display: inline-block;
+	margin-top: 5em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	margin-left: 1.5em;
 }
+.links {
+	margin-top: -7em;
+	margin-left: 2em;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
 /*
 .top-navigation > .content > .logo {
   	margin: 2px 0 0 15px;
