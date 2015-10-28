@@ -1,3 +1,50 @@
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+.top-navigation {
+	background-color: #ffffff;
+}
+li {
+	display: inline;
+	margin-left: 1em;
+	float: right;
+}
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+.main-text {
+	text-align: center;
+}
+.main-text {
+	color: white;
+	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 45.938rem;
+}
+.main-text h1, h2 {
+	width: 100%;
+}
+.main-text h1 {
+	top: 20rem;
+}
+.main-text h2 {
+	top: 10rem;
+}
+.main-text button {
+	background-color: #F15A29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
+/*
 html {
   box-sizing: border-box;
 }
@@ -31,6 +78,7 @@ div {
     color: #333333;
 }
 /* this is my code too*/
+/*
 .top-navigation {
 	background-color: white;
 }
