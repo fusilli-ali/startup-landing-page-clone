@@ -44,6 +44,20 @@ li {
     padding: 16px 26px;
     line-height: 1.33;
 }
+.body-text {
+	text-align: center;
+	height: 43%;
+}
+
+.body-icons {
+	float: right;
+	position: relative;
+	left: -38%;
+}
+
+.body-pics {
+	width: 127px;
+}
 /*
 html {
   box-sizing: border-box;
