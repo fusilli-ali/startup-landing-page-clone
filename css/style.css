@@ -1,16 +1,39 @@
+/*
 body {
     background-color: LightGray;
 }
 div {
     border: 1px solid Chocolate;
 }
+*/
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.logo {
+	width:26px;
+	padding-top:6px;
+}
 .top-navigation {
 	background-color: #ffffff;
+	height: 4rem;
 }
-li {
-	display: inline;
-	margin-left: 1em;
+.links {
 	float: right;
+}
+.top-navigation .links li.active {
+	font-weight:500 !important;
+	color: #4c5058 !important;
+}
+.nav-links {
+	display: inline;
+	margin-left: 1.5em;
+	color: #838994;
+	font-size: 1.04rem;
+}
+.nav-links:hover {
+	color: #333333;
+	cursor: pointer;
 }
 .content {
 	width: 60%;
@@ -20,21 +43,25 @@ li {
 	text-align: center;
 }
 .main-text {
-	color: white;
-	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
-	background-size: cover;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	height: 45.938rem;
+    background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+    overflow: auto;
 }
 .main-text h1, h2 {
 	width: 100%;
+	font-weight: 300;
+	color: white;
+	text-align: center;
 }
 .main-text h1 {
-	top: 20rem;
+	font-size: 3.125rem;
+	padding-top:13rem;
 }
 .main-text h2 {
-	top: 10rem;
+	margin-top:-1.5rem;
 }
 .main-text button {
 	background-color: #F15A29;
@@ -43,21 +70,83 @@ li {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
+    color: white;
+    font-size:1.25rem;
 }
 .body-text {
 	text-align: center;
-	height: 43%;
+	overflow: auto;
+	height:30rem;
 }
-
+.body-text h1 {
+	font-weight:lighter;
+	font-size:2.5rem;
+	padding-top:6rem;
+}
 .body-icons {
-	float: right;
-	position: relative;
-	left: -38%;
+	margin: 0 auto;
+	padding-top:2rem;
+	padding-left:0;
 }
 
 .body-pics {
 	width: 127px;
 }
+.body-list {
+	margin-right: 3em;
+	margin-left: 3em;
+	display: inline-block;
+	font-size:1.5rem;
+}
+.icon-caption {
+	display: block;
+	padding-top:2rem;
+}
+.footer {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid LightGray;
+	width:60%;
+	margin:0 auto;
+	height:20rem;
+}
+.footer-links {
+	margin: 0 auto;
+	list-style-type: none;
+	padding-left:0;
+}
+.copyright {
+	color: LightGray;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.twitter, .facebook, .instagram {
+    display: inline-block;
+    background: none;
+    border-radius: 50%;
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid #eaebec;
+    padding: 0.75em;
+    text-align: center;
+    margin-right: 1rem;
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.instagram {
+	color: #3f729b;
+}
+
 /*
 html {
   box-sizing: border-box;
